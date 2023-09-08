@@ -28,10 +28,10 @@ button1.addEventListener('click', function(){
   const code = (Math.floor (Math.random() * (maxcode - mincode + 1 )) + mincode);
   document.querySelector('.code').innerHTML = code ;
   /* agegap */
-  var selectElement = document.getElementById("age");
-  var ofertDiv = document.querySelector(".ofert");
-  var selectedValue = selectElement.value;
-  var mensaje = "";
+  const selectElement = document.getElementById("age");
+  const ofertDiv = document.querySelector(".ofert");
+  const selectedValue = selectElement.value;
+  const mensaje = "";
   switch (selectedValue) {
     case "1":
       message = "Junnior Scount";
