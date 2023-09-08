@@ -1,0 +1,16 @@
+body{
+  background-color: grey;
+}
+.form{
+  display: block;
+  width:230px;
+}
+.forms{
+  border:2px solid lightgrey;
+}
+.empty{
+  width: 125px;
+}
+.details{
+  height: 125px;
+}
