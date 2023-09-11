@@ -28,10 +28,10 @@ button1.addEventListener('click', function(){
   const code = (Math.floor (Math.random() * (maxcode - mincode + 1 )) + mincode);
   document.querySelector('.code').innerHTML = code ;
   /* agegap */
-  const selectElement = document.getElementById("age");
+  const inputagegap = document.getElementById("age");
   const ofertDiv = document.querySelector(".ofert");
-  const selectedValue = selectElement.value;
-  const mensaje = "";
+  const selectedValue = inputagegap.value;
+  let mensaje = "";
   switch (selectedValue) {
     case "1":
       message = "Junnior Scount";
@@ -63,6 +63,9 @@ button2.addEventListener('click', function(){
 
   const ticket = document.querySelector('#ticket');
   ticket.classList.add('d-none');
-  
+  inputname.value ='';
+  inputdistance.value ='';
+  inputagegap.value ='';
+
  });
  
